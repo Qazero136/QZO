@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Menu DUI Macho</title>
+  <style>
+    body {
+      background-color: #111;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    button {
+      background-color: #ff4747;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      font-size: 18px;
+      margin: 10px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #ff0000;
+    }
+  </style>
+</head>
+<body>
+  <h1>🔥 Macho DUI Menu</h1>
+  <button id="btn1">Action 1</button>
+  <button id="btn2">Action 2</button>
+
+  <script>
+    document.getElementById("btn1").addEventListener("click", () => {
+      console.log("Action 1 clicked");
+    });
+
+    document.getElementById("btn2").addEventListener("click", () => {
+      console.log("Action 2 clicked");
+    });
+
+    console.log("Macho DUI loaded!");
+  </script>
+</body>
+</html>
